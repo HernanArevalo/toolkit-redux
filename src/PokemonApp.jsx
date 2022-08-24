@@ -19,12 +19,21 @@ export const PokemonApp = () => {
     <>
         <h1>PokemonApp</h1>
         <hr />
-
+        <span>Loading: { true? 'True': 'False'}</span>
         <ul>
+          {/* { pokemons.map } */}
             <li>Hola</li>
             <li>Hola</li>
             <li>Hola</li>
         </ul>
+
+        <button
+          // disabled = { isLoading }
+          // onClick={ () => { getPokemons(page) }}
+        >
+          Next
+        </button>
+
     </>
   )
 }
